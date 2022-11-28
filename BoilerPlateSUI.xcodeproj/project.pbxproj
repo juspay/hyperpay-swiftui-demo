@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B34CFDD0572537E38274D81 /* Pods_BoilerPlateSUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA3FD02D4361EFF0DA03628 /* Pods_BoilerPlateSUI.framework */; };
+		DC460A312914DE0B00170624 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460A302914DE0B00170624 /* HomeScreen.swift */; };
+		DC460A332915101F00170624 /* OrderSummaryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460A322915101F00170624 /* OrderSummaryScreen.swift */; };
+		DC460A352915445A00170624 /* PaymentsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC460A342915445A00170624 /* PaymentsHelper.swift */; };
+		DC467056290F92BA0011C8FD /* BoilerPlateSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC467055290F92BA0011C8FD /* BoilerPlateSUIApp.swift */; };
+		DC46705A290F92BD0011C8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC467059290F92BD0011C8FD /* Assets.xcassets */; };
+		DC46705D290F92BD0011C8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC46705C290F92BD0011C8FD /* Preview Assets.xcassets */; };
+		DCE3827F2913E47B00363CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3827E2913E47B00363CE4 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC467070290F954E0011C8FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67C326D8357FDA702D1ADFB9 /* Pods-BoilerPlateSUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerPlateSUI.release.xcconfig"; path = "Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI.release.xcconfig"; sourceTree = "<group>"; };
+		6EA3FD02D4361EFF0DA03628 /* Pods_BoilerPlateSUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoilerPlateSUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC460A302914DE0B00170624 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		DC460A322915101F00170624 /* OrderSummaryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryScreen.swift; sourceTree = "<group>"; };
+		DC460A342915445A00170624 /* PaymentsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsHelper.swift; sourceTree = "<group>"; };
+		DC467052290F92BA0011C8FD /* BoilerPlateSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilerPlateSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC467055290F92BA0011C8FD /* BoilerPlateSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerPlateSUIApp.swift; sourceTree = "<group>"; };
+		DC467059290F92BD0011C8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC46705C290F92BD0011C8FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE3827E2913E47B00363CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE382812914D95E00363CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F264C51274D759E9720525C7 /* Pods-BoilerPlateSUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoilerPlateSUI.debug.xcconfig"; path = "Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC46704F290F92BA0011C8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B34CFDD0572537E38274D81 /* Pods_BoilerPlateSUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CD2D1266484DC8C94F5E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F264C51274D759E9720525C7 /* Pods-BoilerPlateSUI.debug.xcconfig */,
+				67C326D8357FDA702D1ADFB9 /* Pods-BoilerPlateSUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC467049290F92BA0011C8FD = {
+			isa = PBXGroup;
+			children = (
+				DC467054290F92BA0011C8FD /* BoilerPlateSUI */,
+				DC467053290F92BA0011C8FD /* Products */,
+				DC46706D290F954E0011C8FD /* Frameworks */,
+				09CD2D1266484DC8C94F5E73 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DC467053290F92BA0011C8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC467052290F92BA0011C8FD /* BoilerPlateSUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC467054290F92BA0011C8FD /* BoilerPlateSUI */ = {
+			isa = PBXGroup;
+			children = (
+				DCE3827E2913E47B00363CE4 /* AppDelegate.swift */,
+				DC467055290F92BA0011C8FD /* BoilerPlateSUIApp.swift */,
+				DC460A302914DE0B00170624 /* HomeScreen.swift */,
+				DC460A322915101F00170624 /* OrderSummaryScreen.swift */,
+				DC460A342915445A00170624 /* PaymentsHelper.swift */,
+				DC467059290F92BD0011C8FD /* Assets.xcassets */,
+				DCE382812914D95E00363CE4 /* Info.plist */,
+				DC46705B290F92BD0011C8FD /* Preview Content */,
+			);
+			path = BoilerPlateSUI;
+			sourceTree = "<group>";
+		};
+		DC46705B290F92BD0011C8FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC46705C290F92BD0011C8FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC46706D290F954E0011C8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA3FD02D4361EFF0DA03628 /* Pods_BoilerPlateSUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC467051290F92BA0011C8FD /* BoilerPlateSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC467060290F92BD0011C8FD /* Build configuration list for PBXNativeTarget "BoilerPlateSUI" */;
+			buildPhases = (
+				871F4175DA31D7023177C880 /* [CP] Check Pods Manifest.lock */,
+				DC46704E290F92BA0011C8FD /* Sources */,
+				DC46704F290F92BA0011C8FD /* Frameworks */,
+				DC467050290F92BA0011C8FD /* Resources */,
+				DC467070290F954E0011C8FD /* Embed Frameworks */,
+				B64BD6C4008B2DE263462DD1 /* [CP] Embed Pods Frameworks */,
+				6211FDCB5F8C3501C0B08988 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoilerPlateSUI;
+			productName = BoilerPlateSUI;
+			productReference = DC467052290F92BA0011C8FD /* BoilerPlateSUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC46704A290F92BA0011C8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DC467051290F92BA0011C8FD = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DC46704D290F92BA0011C8FD /* Build configuration list for PBXProject "BoilerPlateSUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC467049290F92BA0011C8FD;
+			productRefGroup = DC467053290F92BA0011C8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC467051290F92BA0011C8FD /* BoilerPlateSUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC467050290F92BA0011C8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC46705D290F92BD0011C8FD /* Preview Assets.xcassets in Resources */,
+				DC46705A290F92BD0011C8FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6211FDCB5F8C3501C0B08988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871F4175DA31D7023177C880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoilerPlateSUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64BD6C4008B2DE263462DD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoilerPlateSUI/Pods-BoilerPlateSUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC46704E290F92BA0011C8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE3827F2913E47B00363CE4 /* AppDelegate.swift in Sources */,
+				DC460A312914DE0B00170624 /* HomeScreen.swift in Sources */,
+				DC460A352915445A00170624 /* PaymentsHelper.swift in Sources */,
+				DC467056290F92BA0011C8FD /* BoilerPlateSUIApp.swift in Sources */,
+				DC460A332915101F00170624 /* OrderSummaryScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC46705E290F92BD0011C8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC46705F290F92BD0011C8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC467061290F92BD0011C8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F264C51274D759E9720525C7 /* Pods-BoilerPlateSUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoilerPlateSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5973QP9JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoilerPlateSUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.balaganesh.BoilerPlateSUI1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC467062290F92BD0011C8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C326D8357FDA702D1ADFB9 /* Pods-BoilerPlateSUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BoilerPlateSUI/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5973QP9JP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BoilerPlateSUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.balaganesh.BoilerPlateSUI1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC46704D290F92BA0011C8FD /* Build configuration list for PBXProject "BoilerPlateSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC46705E290F92BD0011C8FD /* Debug */,
+				DC46705F290F92BD0011C8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC467060290F92BD0011C8FD /* Build configuration list for PBXNativeTarget "BoilerPlateSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC467061290F92BD0011C8FD /* Debug */,
+				DC467062290F92BD0011C8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC46704A290F92BA0011C8FD /* Project object */;
+}
