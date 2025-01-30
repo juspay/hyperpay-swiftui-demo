@@ -6,7 +6,7 @@ target 'BoilerPlateSUI' do
   use_frameworks!
   
   # Pods for BoilerPlateSUI
-  pod 'HyperSDK', '2.1.17'
+  pod 'HyperSDK', '2.2.2'
   
 end
 

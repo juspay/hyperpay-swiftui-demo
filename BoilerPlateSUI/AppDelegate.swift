@@ -27,7 +27,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // service acts as a product reference
         let payload = [
            "payload" : innerPayload,
-           "service" : "in.juspay.hyperapi"
+           "service" : "in.juspay.hyperpay"
         ] as [String: Any]
               
         HyperServices.preFetch(payload)

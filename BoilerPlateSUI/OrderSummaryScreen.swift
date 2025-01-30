@@ -12,7 +12,6 @@ struct OrderSummaryScreen: View {
     @EnvironmentObject var environment: Environment
     
     @Binding var itemCount: Int
-    @State private var allowTaps: Bool = true
     @State private var showLoader: Bool = false
     
     var body: some View {
@@ -81,7 +80,6 @@ struct OrderSummaryScreen: View {
             
         }
         .navigationTitle("Order Summary")
-        .allowsHitTesting(allowTaps)
     }
     
     func startHyperProcess() {
@@ -94,7 +92,7 @@ struct OrderSummaryScreen: View {
                     if event == "hide_loader" {
                         showLoader = false
                     } else if event == "process_result" {
-                        allowTaps = true
+                        
                     }
                 }
             }
@@ -102,7 +100,6 @@ struct OrderSummaryScreen: View {
             let processPayload = environment.paymentsHelper.generateProcessPayload("\(itemCount * 1)")
             
             showLoader = true
-            allowTaps = false
             environment.paymentsHelper.hyperInstance.process(processPayload)
         }
     }

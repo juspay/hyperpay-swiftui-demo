@@ -12,6 +12,7 @@
 				<string>amzn-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 				<string>juspay-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 				<string>$(PRODUCT_BUNDLE_IDENTIFIER).cred</string>
+				<string>paytm-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			</array>
 		</dict>
 	</array>
@@ -25,6 +26,16 @@
 		<string>bhim</string>
 		<string>devtools</string>
 		<string>myairtel</string>
+		<string>slice-upi</string>
+		<string>ppe</string>
+		<string>amazonpay</string>
+		<string>kiwi</string>
+		<string>navipay</string>
+		<string>mobikwik</string>
+		<string>tatadigital</string>
+		<string>cugext</string>
+		<string>popclubapp</string>
+		<string>super</string>
 	</array>
 </dict>
 </plist>

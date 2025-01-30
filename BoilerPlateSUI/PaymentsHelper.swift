@@ -28,7 +28,12 @@ class PaymentsHelper: NSObject {
     let action = "paymentPage"
     var orderId: String!
     
-    lazy var hyperInstance = HyperServices()
+    lazy var hyperInstance: HyperServices = {
+        let instance = HyperServices()
+        instance.shouldHideNavigationBarWhenPushed = false
+        instance.shouldUseViewController = true
+        return instance
+    }()
 
     // MARK: Helper functions
     func initiateHyper(payload: [String: Any]) {
